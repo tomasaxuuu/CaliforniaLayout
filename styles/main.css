@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import "./reset.css";
+
+.header {
+    padding-bottom: 28px;
+    font-family: 'Inter', sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.container {
+    max-width: 1584px;
+    margin: 0 auto;
+    padding: 0 73px;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0 32px 0;
+}
+.logo {
+    -moz-user-select: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+.nav-menu {
+}
+.search-shop {
+    display: flex;
+    column-gap: 15px;
+}
+.nav-ul {
+    display: flex;
+    column-gap: 45px;
+    
+}
+.item-ul-nav:nth-child(2) {
+    position: relative;
+}
+.item-ul-nav:nth-child(2)::after {
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-top: 1.5px solid #070847;
+    border-right: 1.5px solid #070847;
+    top: 4px;
+    cursor: pointer;
+    right: -16px;
+    transform: rotate(135deg);
+}
+.item-ul-nav:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.search:hover, .shop-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.item-ul-nav a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
