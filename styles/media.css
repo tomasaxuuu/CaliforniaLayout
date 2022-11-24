@@ -1,9 +1,22 @@
-@media(max-width: 1420px) {
+@media(max-width: 1440px) {
     .watch-block {
         display: block;
     }
     .text-watch {
         padding: 0 42px 0 0;
+    }
+    .ideas-row {
+        justify-content: center;
+    }
+    .book {
+        padding-left: 0;
+        padding-bottom: 35px;
+    }
+    .ideas-content {
+        max-width: 100%;
+    }
+    .ideas-content p {
+        text-align: justify;
     }
 }
 @media(max-width: 1095px) {
