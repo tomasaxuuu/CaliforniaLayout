@@ -47,6 +47,9 @@
         right: 100px;
         text-align: center;
     }
+    .search-input {
+        width: 100%;
+    }
 }
 
 @media(max-width: 960px) {
@@ -81,6 +84,20 @@
    }
    .arrow-left, .arrow-right {
     display: none;
+   }
+   .devices-input-block {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+   }
+   .input-devices {
+        border-radius: 54px;
+        width: 80%;
+   }
+   .button-devices {
+        border-radius: 200px;
+        text-align: center;
+        width: 50%;
    }
 }
 
