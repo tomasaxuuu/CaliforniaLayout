@@ -622,3 +622,72 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+.footer {
+    padding: 0 45px 4px 45px;
+}
+.footer-row {
+    padding: 44px 0 116px 0;
+    display: flex;
+    column-gap: 118px;
+    flex-wrap: wrap;
+}
+.about-california img {
+    padding-bottom: 18px;
+}
+.about-california p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    max-width: 304px;
+}
+.footer-items:nth-child(1) {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 19px;
+}
+.footer-items {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    padding-bottom: 14px;
+}
+.end-block {
+    display: flex;
+    justify-content: space-between;
+}
+.left-end, .right-end {
+    display: flex;
+}
+#footer-p-one {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-right: 3px;
+}
+#footer-p-sec {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    -webkit-transition: all 1s;
+}
+.end-block img {
+    -webkit-transition: all 1s;
+}
+.end-block img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

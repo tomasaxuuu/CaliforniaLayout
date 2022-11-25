@@ -1,4 +1,4 @@
-@media(max-width: 1440px) {
+@media(max-width: 1500px) {
     .watch-block {
         display: block;
     }
@@ -19,6 +19,28 @@
         text-align: justify;
     }
 }
+@media(max-width: 1276px) {
+    .footer-row {
+        justify-content: center;
+        gap: 30px;
+    }
+    .about-california {
+        text-align: center  ;
+    }
+    .footer-ul {
+        text-align: justify;
+    }
+    .end-block {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-right: 0;
+    }
+    .footer-items:nth-child(1) {
+        max-width: 101px;
+    }
+}
+
 @media(max-width: 1095px) {
     .rectangles {
         display: none;
