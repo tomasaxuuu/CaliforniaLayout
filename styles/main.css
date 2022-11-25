@@ -60,6 +60,9 @@
     transform: scale(1.2);
     cursor: pointer;
 }
+.burger-menu {
+    display: none;
+}
 .search:hover, .shop-icon:hover {
     transform: scale(1.2);
     cursor: pointer;
