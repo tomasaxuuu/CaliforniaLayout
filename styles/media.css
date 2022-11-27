@@ -39,6 +39,9 @@
     .footer-items:nth-child(1) {
         max-width: 101px;
     }
+    .footer {
+        padding-bottom: 25px;
+    }
 }
 
 @media(max-width: 1095px) {
@@ -55,18 +58,10 @@
     .gallery-phones-row {
         flex-direction: column;
     }
-    .arrow-left {
+    .arrow-left, .arrow-right {
         margin: auto;
         top: 0;
         bottom: 0;
-        left: 100px;
-        text-align: center;
-    }
-    .arrow-right {
-        margin: auto;
-        top: 0;
-        bottom: 0;
-        right: 100px;
         text-align: center;
     }
     .search-input {
@@ -124,9 +119,6 @@
    }
    .gallery-content h1 {
     font-size: 45px;
-   }
-   .arrow-left, .arrow-right {
-    display: none;
    }
    .devices-input-block {
         flex-direction: column;
