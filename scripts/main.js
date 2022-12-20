@@ -1,6 +1,13 @@
-
 const buttonSignUp = document.querySelector('.button-devices');
 let inputField =  document.querySelector('.input-devices');
+const swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    navigation : {
+        nextEl: ".arrow-right",
+        prevEl: ".arrow-left",
+    },
+    loop: true,
+});
 buttonSignUp.addEventListener("click", function () {
     alert(`Мы отправим письмо на вашу почту: ${inputField.value}`);
     inputField.value = '';

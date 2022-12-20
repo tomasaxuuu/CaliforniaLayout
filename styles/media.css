@@ -55,7 +55,7 @@
     .button-gallery {
         max-width: 100%;
     }
-    .gallery-phones-row {
+    .swiper-slide {
         flex-direction: column;
     }
     .arrow-left, .arrow-right {

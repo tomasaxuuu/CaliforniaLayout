@@ -77,16 +77,20 @@
     text-decoration: none;
 }
 
-.gallery-block {
+.swiper.mySwiper {
     padding-bottom: 75px;
+    overflow: hidden;
 }
-.gallery-phones-row {
+.swiper-slide {
     display: flex;
     position: relative;
     align-items: center;
     background: #DCE5E2;
     border-radius: 32px;
-   
+}
+.start-anim {
+    opacity: 1;
+    transform: translateX(0);
 }
 .gallery-content {
     padding-left: 56px;

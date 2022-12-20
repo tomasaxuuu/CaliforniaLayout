@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/media.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
     <title>California</title>
 </head>
 <body>
@@ -34,21 +38,40 @@
         </div>
     </header>
     <main>
-        <div class="gallery-block">
-            <div class="container">
-                <div class="gallery-phones-row">
-                    <div class="gallery-content">
-                        <h1>The new phones are here take a look.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est <br> dui, aliquam, tempor. Faucibus morbi turpis.</p>
-                        <div class="button-gallery"><a class="text-button">Explore</a></div>
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="gallery-content">
+                            <h1>The new phones are here take a look.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est <br> dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                            <div class="button-gallery"><a class="text-button">Explore</a></div>
+                        </div>
+                        <img src="./img/gallery/gallery1.svg" alt="iphone" class="img-gallery">
+                        
+                        <div class="rectangles">
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                        </div>
+                        <img src="./img/gallery/arrowLeft.svg" alt="prev" class="arrow-left">
+                        <img src="./img/gallery/arrowRight.svg" alt="next" class="arrow-right">
                     </div>
-                    <img src="./img/gallery/gallery1.svg" alt="iphone" class="img-gallery">
-                    <img src="./img/gallery/arrowLeft.svg" alt="prev" class="arrow-left">
-                    <img src="./img/gallery/arrowRight.svg" alt="next" class="arrow-right">
-                    <div class="rectangles">
-                        <div class="rectangle"></div>
-                        <div class="rectangle"></div>
-                        <div class="rectangle"></div>
+                    <div class="swiper-slide">
+                        <div class="gallery-content">
+                            <h1>The new phones are here take a look.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est <br> dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                            <div class="button-gallery"><a class="text-button">Explore</a></div>
+                        </div>
+                        <img src="./img/gallery/gallery1.svg" alt="iphone" class="img-gallery">
+                        
+                        <div class="rectangles">
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                        </div>
+                        <img src="./img/gallery/arrowLeft.svg" alt="prev" class="arrow-left">
+                        <img src="./img/gallery/arrowRight.svg" alt="next" class="arrow-right">
                     </div>
                 </div>
             </div>
@@ -259,6 +282,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
